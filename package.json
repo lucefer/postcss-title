@@ -1,6 +1,6 @@
 {
   "name": "postcss-title",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "postcss,add css file comment",
   "main": "index.js",
   "scripts": {
