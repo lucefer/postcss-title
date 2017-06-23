@@ -29,7 +29,6 @@ let info={
 module.exports = postcss.plugin('title', function (opts) {
     opts = opts || {}
     return function (root, result) {
-      console.log(root.source)
       let fileName=root.source.input.file
       let fileIndex=fileName.lastIndexOf("/")
       console.log("index:",fileIndex,fileName.length-fileIndex-1)
